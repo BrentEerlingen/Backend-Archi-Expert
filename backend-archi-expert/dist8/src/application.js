@@ -5,8 +5,9 @@ const sequence_1 = require("./sequence");
 /* tslint:disable:no-unused-variable */
 // Binding and Booter imports are required to infer types for BootMixin!
 const boot_1 = require("@loopback/boot");
+const repository_1 = require("@loopback/repository");
 /* tslint:enable:no-unused-variable */
-class BackendArchiExpertApplication extends boot_1.BootMixin(rest_1.RestApplication) {
+class BackendArchiExpertApplication extends boot_1.BootMixin(repository_1.RepositoryMixin(rest_1.RestApplication)) {
     constructor(options) {
         super(options);
         // Set up the custom sequence

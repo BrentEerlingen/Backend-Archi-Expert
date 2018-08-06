@@ -1,0 +1,9 @@
+{
+  "name": "ArchiExpert",
+  "connector": "mysql",
+  "host": "ID242321_archiexpert.db.webhosting.be",
+  "port": 0,
+  "user": "ID242321_archiexpert",
+  "password": "Archiexpert1",
+  "database": "ID242321_archiexpert"
+}
